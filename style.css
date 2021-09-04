@@ -69,17 +69,11 @@ li a:hover {
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-width:600px) {
-    #main-banner {
-        padding-bottom: 1px;
-        background-size: 100% 45%;
-        padding-top: 1px;
-    }
-}
+
 @media only screen and (max-width:768px) {
     #main-banner {
         padding-bottom: 1px;
-        background-size: 100% 60%;
+        background-size: 100% 49%;
         padding-top: 1px;
     }
 }
