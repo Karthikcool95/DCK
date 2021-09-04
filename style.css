@@ -71,7 +71,7 @@ li a:hover {
 @media only screen and (max-width:600px) {
     #main-banner {
         padding-bottom: 1px;
-        background-size: 100%;
+        background-size: 100% 45%;
         padding-top: 1px;
     }
 }
@@ -119,7 +119,7 @@ li a:hover {
      }
  }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 600px) {
      .stats {
          grid: auto / 1fr;
          grid-row-gap: 5rem;
@@ -132,7 +132,7 @@ li a:hover {
     grid: auto / 25% 75%;
 }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 600px) {
       .stat {
           grid: auto / 30% 70%;
       }
@@ -147,7 +147,7 @@ li a:hover {
     height: 70;
 }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 600px) {
      .stat__icon img {
          width: 70%;
          height: 50px;
@@ -183,7 +183,7 @@ li a:hover {
     align-items: center;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     .aboutme {
         display: block;
         text-align: center;
@@ -236,7 +236,19 @@ li a:hover {
     height: 100px;
     width: 500px;
 }
+@media only screen and (max-width: 400px) {
+    .wrap {
+        height: auto;
+        width: auto;
+    }
+}
 
+@media only screen and (max-width: 768px) {
+    .wrap {
+       height: auto;
+       width: auto;
+    }
+}
 .button {
     background-color: #10c9c3;
     border: none;
@@ -271,7 +283,7 @@ li a:hover {
       }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 600px) {
       .footer-grid {
           grid: auto / 1fr;
           grid-row-gap: 2rem;
@@ -297,7 +309,7 @@ li a:hover {
 .footer__list {
     list-style: none;
 }
-@media  only screen and  (max-width:400px) {
+@media  only screen and  (max-width:600px) {
     .footer__list{
         padding-left: 0px;
     }
@@ -306,7 +318,7 @@ li a:hover {
 .footer__social {
     justify-self: flex-end;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     .footer__social {
         justify-self: flex-start;
     }
