@@ -63,7 +63,7 @@ li a:hover {
         padding: 0%;
     }
 }
-#main-banner {
+#main_banner {
     padding-top: 45px;
     padding-bottom: 75px;
     position: relative;
@@ -178,7 +178,7 @@ li a:hover {
 
 }
 
-.aboutme {
+#aboutme {
     font-size: medium;
     font-family: "Montserrat", sans-serif;
     display: grid;
@@ -191,19 +191,19 @@ li a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .aboutme {
+    #aboutme {
         display: block;
         text-align: center;
     }
 }
 @media only screen and (max-width: 768px) {
-    .aboutme {
+    #aboutme {
         display: block;
         text-align: center;
     }
 }
 
-.aboutme p {
+#aboutme p {
     font-family: "Nunito Sans",
     sans-serif;
     font-weight: lighter;
@@ -220,7 +220,7 @@ li a:hover {
     width: 200px;
 }
 
-.hireme {
+#hireme {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -228,12 +228,12 @@ li a:hover {
     height: 300px;
 }
 
-.hireme h3 {
+#hireme h3 {
     font-size: 1.7rem;
     font-family: "Montserrat", sans-serif;
 }
 
-.hireme p {
+#hireme p {
     opacity: 0.5;
     font-family: "Nunito Sans",
     sans-serif;
